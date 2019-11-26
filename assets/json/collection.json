@@ -1,0 +1,48 @@
+{
+  "all": [{
+      "id": 1,
+      "name": "Men Selection",
+      "image": "https://cf.shopee.vn/file/4f55b59de133a688b4fc56365624162e_tn"
+    },
+    {
+      "id": 2,
+      "name": "Women Selection",
+      "image": "https://cf.shopee.vn/file/69df5cba25baa6ce473eae75ffbcaca4_tn"
+    },
+    {
+      "id": 3,
+      "name": "Spring Selection",
+      "image": "https://cf.shopee.vn/file/623ffef0349e297204617056e47763f5"
+    },
+    {
+      "id": 4,
+      "name": "New Student Life",
+      "image": "https://cf.shopee.vn/file/5bcd1d8a1a96b1df76c1261d8e6e8af6_tn"
+    },
+    {
+      "id": 5,
+      "name": "New Marriage Life",
+      "image": "https://cf.shopee.vn/file/c75c33653c8ff911d2966d0602c80f7c_tn"
+    },
+    {
+      "id": 6,
+      "name": "For Gamer",
+      "image": "https://cf.shopee.vn/file/4f55b59de133a688b4fc56365624162e_tn"
+    },
+    {
+      "id": 7,
+      "name": "New School",
+      "image": "https://cf.shopee.vn/file/c75c33653c8ff911d2966d0602c80f7c_tn"
+    },
+    {
+      "id": 8,
+      "name": "For Traveller",
+      "image": "https://cf.shopee.vn/file/4f55b59de133a688b4fc56365624162e_tn"
+    },
+    {
+      "id": 9,
+      "name": "For Single Mother",
+      "image": "https://cf.shopee.vn/file/c75c33653c8ff911d2966d0602c80f7c_tn"
+    }
+  ]
+}

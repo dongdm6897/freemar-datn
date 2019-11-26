@@ -1,0 +1,41 @@
+@startuml
+title Order state flow
+
+state ORDER {
+  [*] -d-> EMPTY: Buyer fill order informations
+  EMPTY -d-> ORDER_REQUESTED: IsConfirmNeeded=true
+  ORDER_REQUESTED -d-> ORDER_APPROVED: Seller approve order
+  EMPTY -d-> ORDER_APPROVED: IsConfirmNeeded=false
+  ORDER_APPROVED -d-> ORDER_PAID: Buyer pay online/offline
+  ORDER_PAID -d-> [*]: Buyer paid, then Baibai confirmed OK
+}
+
+state SHIPPING {
+  [*] -d-> SHIP_REQUESTED: Seller request shipper
+  SHIP_REQUESTED -d-> SHIP_CARRYING: Shipper carrying product
+  SHIP_CARRYING -d-> SHIP_DONE: Shipper completed ship
+  SHIP_DONE -d-> [*]: Shipper updated done status on system
+}
+
+state CHECK {
+  [*] -d-> CHECK_DOING: Buyer check received product
+  CHECK_DOING -d-> CHECK_DONE: Buyer check done
+  CHECK_DONE -d-> [*]: Check result is OK
+  CHECK_DONE -d-> RETURN_REQUESTED: Buyer request shipper for returning not good product
+  RETURN_REQUESTED -d-> RETURN_SHIPPING: Shipper ship product back to seller
+  RETURN_SHIPPING -d-> RETURN_DONE: Shipper shipped done.
+  RETURN_DONE -d-> [*]: Buyer returned done.
+}
+
+' Normal order flow
+[*] -r-> ORDER: Buyer make an order
+ORDER -r-> SHIPPING: Shipper ship product
+SHIPPING -r-> CHECK: Buyer receive & check product
+CHECK -r-> TRANSACTION_FINISHED: Transaction finish OK
+TRANSACTION_FINISHED -r-> [*]: Done
+
+' Cancel order
+ORDER -d-> TRANSACTION_CANCELLED: Buyer/Seller cancel/reject order
+TRANSACTION_CANCELLED -r-> [*]: Done
+
+@enduml

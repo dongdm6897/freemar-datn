@@ -1,0 +1,131 @@
+{
+  "access_token": "asflkhrweiiiiiiiiiiiiiii2948293lahdfoiaueyroaqwjefalihu",
+  "expires_at" : "2019-03-28 23:04:50",
+  "user": {
+    "id": 1,
+    "name": "Nguyen Dat Local",
+    "introduction": "flutter",
+    "username": "Nguyen Van Dat",
+    "password": "OEUTOEWETLDSGFS15359W4TR3SD21GF3",
+    "email": "nguyendat.5997@gmail.com",
+    "city": "Ha Noi",
+    "address": "Ngo Trai Ca,Hai Ba Trung,Ha Noi,Viet Nam",
+    "phone": "0971267298",
+    "avatar": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+    "money_account_id": null,
+    "identify_number": "14576100000",
+    "identify_photo": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+    "identify_comment": "HU",
+    "status": 3,
+    "total_assessment_points": 15,
+    "favorite_brands": [
+      {
+        "id": 4,
+        "name": "Kiyosak",
+        "description": "Description",
+        "image": "assets/images/ranking/clother.png"
+      },
+      {
+        "id": 5,
+        "name": "Produkt",
+        "description": "Description",
+        "image": "assets/images/ranking/laptop.png"
+      }
+    ],
+    "favorite_categories": [
+      {
+      "id": 4,
+      "name": "Sport",
+      "icon": "desktop_windows"
+    },
+      {
+        "id": 5,
+        "name": "Laptop",
+        "icon": "desktop_windows"
+      }
+    ],
+    "shipping_addresses" : [
+      {
+        "id": 1,
+        "name": "Tran Minh Thuan",
+        "phone_number": "0971267298",
+        "address": "Thon A, xa Dai tien, huyen Dai tu, tinh ABC",
+        "province": {
+          "id": 51,
+          "_name": "Quảng Trị"
+        },
+        "district": {
+          "id": 93,
+          "_name": "Bạch Long Vĩ",
+          "_prefix": "Huyện"
+        },
+        "ward": {
+          "id": 3710,
+          "_name": "Đông Hải",
+          "_prefix": "Xã"
+        },
+        "street": {
+          "id": 24917,
+          "_name": "Nguyễn Đình Nghị",
+          "_prefix": "Đường"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Nguyễn Văn Đạt",
+        "phone_number": "0971267298",
+        "address": "Số 19 ngõ Trại Cá,Trương Định,Hai Bà Trưng,Hà Nội",
+        "province": {
+          "id": 51,
+          "_name": "Quảng Trị"
+        },
+        "district": {
+          "id": 93,
+          "_name": "Bạch Long Vĩ",
+          "_prefix": "Huyện"
+        },
+        "ward": {
+          "id": 3710,
+          "_name": "Đông Hải",
+          "_prefix": "Xã"
+        },
+        "street": {
+          "id": 24917,
+          "_name": "Nguyễn Đình Nghị",
+          "_prefix": "Đường"
+        }
+      }
+    ],
+    "current_shipping_address" : {
+      "id": 1,
+      "name": "Tran Minh Thuan",
+      "phone_number": "0971267298",
+      "address": "Thon A, xa Dai tien, huyen Dai tu, tinh ABC",
+      "province": {
+        "id": 51,
+        "_name": "Quảng Trị"
+      },
+      "district": {
+        "id": 93,
+        "_name": "Bạch Long Vĩ",
+        "_prefix": "Huyện"
+      },
+      "ward": {
+        "id": 3710,
+        "_name": "Đông Hải",
+        "_prefix": "Xã"
+      },
+      "street": {
+        "id": 24917,
+        "_name": "Nguyễn Đình Nghị",
+        "_prefix": "Đường"
+      }
+    },
+    "current_ship_provider" :  {
+      "id": 3,
+      "name": "Supership",
+      "logo": "https://supership.vn/wp-content/themes/supership/images/dcv_logo_white.png",
+      "description": "Giao hang nhanh Supership"
+    }
+  }
+}

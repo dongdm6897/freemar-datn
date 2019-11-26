@@ -1,0 +1,602 @@
+{
+  "app_configs": {
+    "default_grid_column_number": 2,
+    "charge_min_amount": 50000.0
+  },
+  "commerce_fees": [
+    {
+      "id": 1,
+      "value": 0.08,
+      "valid_from": "2018-01-01 00:00:00.000Z",
+      "valid_to": "2018-12-31 00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "value": 0.1,
+      "valid_from": "2019-01-01 00:00:00.000Z",
+      "valid_to": "9999-01-01 00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "value": 0.15,
+      "category_id": 2,
+      "valid_from": "2018-01-01 00:00:00.000Z",
+      "valid_to": "9999-01-01 00:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "value": 0.08,
+      "category_id": 3,
+      "valid_from": "2018-01-01 00:00:00.000Z",
+      "valid_to": "2018-12-31 00:00:00.000Z"
+    },
+    {
+      "id": 5,
+      "value": 0.12,
+      "category_id": 3,
+      "valid_from": "2019-01-01 00:00:00.000Z",
+      "valid_to": "9999-01-01 00:00:00.000Z"
+    }
+  ],
+  "links": [
+    {
+      "id": "help1",
+      "link": "https://baibai554889985.wordpress.com/gioi-thieu-ve-baibai-vn/"
+    },
+    {
+      "id": "help2",
+      "link": "https://baibai554889985.wordpress.com/cach-dang-ban-san-pham-tren-baibai/"
+    },
+    {
+      "id": "help3",
+      "link": "https://baibai554889985.wordpress.com/quy-trinh-giao-dich-an-toan-tren-baibai-vn/"
+    },
+    {
+      "id": "help4",
+      "link": "https://baibai554889985.wordpress.com/hieu-ve-cac-chi-phi-khi-mua-ban-hang-tren-baibai-vn/"
+    },
+    {
+      "id": "help5",
+      "link": "https://baibai554889985.wordpress.com/quy-dinh-ve-danh-muc-va-san-pham-duoc-phep-dang-ban/"
+    },
+    {
+      "id": "feedback1",
+      "link": "https://goo.gl/forms/jz3iPSACUPlAmqnF2"
+    }
+  ],
+  "payment_method": [
+    {
+      "id": 1,
+      "name": "Ví Baibai",
+      "logo": "credit_card",
+      "description": "Sử dụng tài khoản ví baibai, miễn phí chuyển tiền & hoàn trả (khuyến khích dùng)"
+    },
+    {
+      "id": 2,
+      "name": "Internet Banking",
+      "logo": "monetization_on",
+      "description": "Chuyển tiền liên ngân hàng thông qua cổng thanh toán VNPay, phí: 1.1% + 1.650đ"
+    },
+    {
+      "id": 3,
+      "name": "Chuyển khoản ngân hàng",
+      "logo": "atm",
+      "description": "Chuyển khoản ngân hàng thông thường (ATM, tài khoản, ...), chi phí do khách hàng trả."
+    },
+    {
+      "id": 4,
+      "name": "Thẻ tín dụng",
+      "logo": "credit_card",
+      "description": "Trả bằng thẻ tín dụng thông qua cổng thanh toán VNPay, phí: 2.75% + 2.500đ"
+    }
+  ],
+  "ship_pay_method": [
+    {
+      "id": 1,
+      "name": "Pay when order",
+      "description": "Tra tien ship khi giao hang"
+    },
+    {
+      "id": 2,
+      "name": "Pay when received",
+      "description": "Tra tien ship khi nhan hang"
+    },
+    {
+      "id": 3,
+      "name": "Shipping fee included",
+      "description": "Tien ship da bao gom trong gia"
+    }
+  ],
+  "ship_provider": [
+    {
+      "id": 1,
+      "name": "VNPost",
+      "logo": "http://www.vnpost.vn/Portals/_default/Skins/VNPost.Skins.FrontEnd/img/vnpost-logo1.png",
+      "description": "Giao hang buu dien"
+    },
+    {
+      "id": 2,
+      "name": "DHL",
+      "logo": "http://www.vnpost.vn/Portals/_default/Skins/VNPost.Skins.FrontEnd/img/vnpost-logo1.png",
+      "description": "Giao hang nhanh DHL"
+    },
+    {
+      "id": 3,
+      "name": "Supership",
+      "logo": "https://supership.vn/wp-content/themes/supership/images/dcv_logo_white.png",
+      "description": "Giao hang nhanh Supership"
+    },
+    {
+      "id": 4,
+      "name": "GHN",
+      "logo": "https://supership.vn/wp-content/themes/supership/images/dcv_logo_white.png",
+      "description": "Giao hang nhanh"
+    },
+    {
+      "id": 5,
+      "name": "Grab",
+      "logo": "https://supership.vn/wp-content/themes/supership/images/dcv_logo_white.png",
+      "description": "Grab giao nhanh nhu chop!"
+    },
+    {
+      "id": 6,
+      "name": "Giao tan noi",
+      "logo": "https://supership.vn/wp-content/themes/supership/images/dcv_logo_white.png",
+      "description": "Giao hang tan noi"
+    },
+    {
+      "id": 7,
+      "name": "Tu den lay",
+      "logo": "https://supership.vn/wp-content/themes/supership/images/dcv_logo_white.png",
+      "description": "Vui long tu den lay"
+    }
+  ],
+  "ship_time_estimation": [
+    {
+      "id": 1,
+      "name": "1-2 days"
+    },
+    {
+      "id": 2,
+      "name": "2-3 days"
+    },
+    {
+      "id": 3,
+      "name": "3-4 days"
+    },
+    {
+      "id": 4,
+      "name": "4-5 days"
+    }
+  ],
+  "shipping_from": {
+    "name": "Vietnam",
+    "value": "Nam Dinh, Ha Noi, Ho Chi Minh, Da Nang, Hai Phong, Thai Binh, Thai Nguyen, Long An, Kien Giang"
+  },
+  "product_status": [
+    {
+      "id": 1,
+      "text": "New"
+    },
+    {
+      "id": 2,
+      "text": "New, unboxed"
+    },
+    {
+      "id": 3,
+      "text": "Close to unused"
+    },
+    {
+      "id": 4,
+      "text": "No noticeable scratch or dirt"
+    },
+    {
+      "id": 5,
+      "text": "Slightly scratched and dirty"
+    },
+    {
+      "id": 6,
+      "text": "There are scratches and dirt"
+    },
+    {
+      "id": 7,
+      "text": "Overall condition is bad"
+    }
+  ],
+  "product_target_gender": [
+    {
+      "id": 1,
+      "value": "All"
+    },
+    {
+      "id": 2,
+      "value": "Male"
+    },
+    {
+      "id": 3,
+      "value": "Female"
+    }
+  ],
+  "product_size": [
+    {
+      "id": 1,
+      "name": "Shoes size",
+      "values": [
+        {
+          "id": 1,
+          "value": "20.0cm"
+        },
+        {
+          "id": 2,
+          "value": "21.0cm"
+        },
+        {
+          "id": 3,
+          "value": "22.0cm"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "T-Shirt size",
+      "values": [
+        {
+          "id": 1,
+          "value": "XS"
+        },
+        {
+          "id": 2,
+          "value": "M"
+        },
+        {
+          "id": 3,
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Common size",
+      "values": [
+        {
+          "id": 1,
+          "value": "Small"
+        },
+        {
+          "id": 2,
+          "value": "Medium"
+        },
+        {
+          "id": 3,
+          "value": "Large"
+        }
+      ]
+    }
+  ],
+  "product_color": [
+    {
+      "id": 1,
+      "name": "Red",
+      "value": "FF0000"
+    },
+    {
+      "id": 2,
+      "name": "Black",
+      "value": "000000"
+    },
+    {
+      "id": 3,
+      "name": "Lime",
+      "value": "00FF00"
+    },
+    {
+      "id": 4,
+      "name": "Blue",
+      "value": "0000FF"
+    },
+    {
+      "id": 5,
+      "name": "Yellow",
+      "value": "FFFF00"
+    },
+    {
+      "id": 6,
+      "name": "Cyan",
+      "value": "00FFFF"
+    },
+    {
+      "id": 7,
+      "name": "Magenta",
+      "value": "FF00FF"
+    },
+    {
+      "id": 8,
+      "name": "White",
+      "value": "FFFFFF"
+    },
+    {
+      "id": 9,
+      "name": "Gray",
+      "value": "808080"
+    },
+    {
+      "id": 10,
+      "name": "Purple",
+      "value": "800080"
+    },
+    {
+      "id": 11,
+      "name": "Green",
+      "value": "008000"
+    },
+    {
+      "id": 12,
+      "name": "Navy",
+      "value": "000080"
+    }
+  ],
+  "order_status": [
+    {
+      "id": 1,
+      "name": "Empty",
+      "comment": "Chưa đặt hàng"
+    },
+    {
+      "id": 2,
+      "name": "Order Requested",
+      "comment": "Đang request đặt hàng"
+    },
+    {
+      "id": 3,
+      "name": "Order Approved",
+      "comment": "Đã đặt hàng thành công (chưa thanh toán)"
+    },
+    {
+      "id": 4,
+      "name": "Order Paid",
+      "description": "Đã thanh toán"
+    },
+    {
+      "id": 5,
+      "name": "Ship Requested",
+      "comment": "Đã request ship hàng"
+    },
+    {
+      "id": 6,
+      "name": "Ship Carrying",
+      "comment": "Đang ship hàng"
+    },
+    {
+      "id": 7,
+      "name": "Ship Done",
+      "comment": "Đã ship hàng"
+    },
+    {
+      "id": 8,
+      "name": "Check Doing",
+      "comment": "Đang kiểm hàng (đang trao đổi với người bán để clear về sản phẩm đã nhận được, và chưa close trạng thái kiểm hàng)"
+    },
+    {
+      "id": 9,
+      "name": "Check Done",
+      "comment": "Đã kiểm hàng"
+    },
+    {
+      "id": 10,
+      "name": "Return Requested",
+      "comment": "Đang request trả hàng (xem xét việc lựa chọn shipper ở màn hình này, và cần quản lí các mặt hàng đang trả) "
+    },
+    {
+      "id": 11,
+      "name": "Return Shipping",
+      "comment": "Đang ship trả hàng"
+    },
+    {
+      "id": 12,
+      "name": "Return Done",
+      "comment": "Đã trả hàng"
+    },
+    {
+      "id": 13,
+      "name": "Transaction Finished",
+      "comment": "Đã hủy giao dịch"
+    },
+    {
+      "id": 14,
+      "name": "Transaction Cancelled",
+      "comment": "Đã hủy giao dịch"
+    },
+    {
+      "id": 15,
+      "name": "Order Rejected",
+      "comment": "Người bán không đồng ý giao dịch"
+    }
+  ],
+  "assessment_type": [
+    {
+      "id": 1,
+      "text": "Good",
+      "comment": "Đối ứng nhanh, chuyên nghiệp"
+    },
+    {
+      "id": 2,
+      "text": "Normal",
+      "comment": "Bình thường"
+    },
+    {
+      "id": 3,
+      "text": "Slow shipping",
+      "comment": "Gửi hàng chậm"
+    },
+    {
+      "id": 4,
+      "text": "Slow paying",
+      "comment": "Trả tiền chậm"
+    },
+    {
+      "id": 5,
+      "text": "Wrong description",
+      "comment": "Hàng mô tả sai thực tế"
+    },
+    {
+      "id": 6,
+      "text": "Fake goods",
+      "comment": "Hàng giả, hàng nhái"
+    }
+  ],
+  "bank_list": [
+    {
+      "code": "BIDV",
+      "name": "Ngan hang xay dung"
+    },
+    {
+      "code": "AGRIBANK",
+      "name": "Ngan hang nong nghiep va phat trien nong thon"
+    },
+    {
+      "code": "TECHCOMBANK",
+      "name": "Ngan hang cong thuong"
+    },
+    {
+      "code": "TPBANK",
+      "name": "Tien phong bank"
+    }
+  ],
+  "attribute_types": [
+    {
+      "id": 1,
+      "title": "Color",
+      "data_type": "string",
+      "icon_name": "colorize",
+      "group": "color",
+      "options": [
+        {
+          "id": 1,
+          "name": "Màu đỏ",
+          "value": "0000FF"
+        },
+        {
+          "id": 2,
+          "name": "Màu đen",
+          "value": "000000"
+        },
+        {
+          "id": 3,
+          "name": "Màu xanh",
+          "value": "FF0000"
+        },
+        {
+          "id": 4,
+          "name": "Màu trắng",
+          "value": "FFFFFF"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Size (clothes)",
+      "data_type": "string",
+      "icon_name": "format_size",
+      "group": "size",
+      "options": [
+        {
+          "id": 1,
+          "name": "XS",
+          "value": "XS"
+        },
+        {
+          "id": 2,
+          "name": "S",
+          "value": "S"
+        },
+        {
+          "id": 3,
+          "name": "M",
+          "value": "M"
+        },
+        {
+          "id": 4,
+          "name": "L",
+          "value": "L"
+        },
+        {
+          "id": 5,
+          "name": "XL",
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Size (shoes)",
+      "data_type": "string",
+      "icon_name": "format_size",
+      "group": "size",
+      "options": [
+        {
+          "id": 1,
+          "name": "XS",
+          "value": "XS"
+        },
+        {
+          "id": 2,
+          "name": "S",
+          "value": "S"
+        },
+        {
+          "id": 3,
+          "name": "M",
+          "value": "M"
+        },
+        {
+          "id": 4,
+          "name": "L",
+          "value": "L"
+        },
+        {
+          "id": 5,
+          "name": "XL",
+          "value": "XL"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Speed (CPU)",
+      "data_type": "string",
+      "icon_name": "format_size",
+      "group": "speed",
+      "options": [
+        {
+          "id": 1,
+          "name": "2.3Gz",
+          "value": "2.3Gz"
+        },
+        {
+          "id": 2,
+          "name": "3.0Gz",
+          "value": "3.0Gz"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Speed (Harddisk)",
+      "data_type": "string",
+      "icon_name": "format_size",
+      "group": "speed",
+      "options": [
+        {
+          "id": 1,
+          "name": "2300rpm",
+          "value": "2300rpm"
+        },
+        {
+          "id": 2,
+          "name": "3600rpm",
+          "value": "3600rpm"
+        }
+      ]
+    }
+  ]
+}

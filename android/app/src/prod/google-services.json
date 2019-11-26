@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "886156228104",
+    "firebase_url": "https://freemar-f1dd9.firebaseio.com",
+    "project_id": "freemar-f1dd9",
+    "storage_bucket": "freemar-f1dd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886156228104:android:70c5588efa06ae46",
+        "android_client_info": {
+          "package_name": "com.rentaza.flutterrentaza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886156228104-kib888jlpql12nke00arjotq54corciv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rentaza.flutterrentaza",
+            "certificate_hash": "14b50aef6192781731cf62dcc92c5029c0c95774"
+          }
+        },
+        {
+          "client_id": "886156228104-4m5mb9t3373n0o2jivr13i30jetlkkqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUYgAcC9w7_D2yvdKXekwPNWCuYG48B4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "886156228104-4m5mb9t3373n0o2jivr13i30jetlkkqb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "886156228104-tr9gnsajpm9ojp6fo9j6iaf8i2n9k7ef.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.rentaza.flutterRentaza"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886156228104:android:501d74dec01234cc",
+        "android_client_info": {
+          "package_name": "com.rentaza.flutterrentaza.dev.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886156228104-4m5mb9t3373n0o2jivr13i30jetlkkqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUYgAcC9w7_D2yvdKXekwPNWCuYG48B4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886156228104:android:139f6aaecc3246f3",
+        "android_client_info": {
+          "package_name": "com.rentaza.flutterrentaza.dev.prod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886156228104-4m5mb9t3373n0o2jivr13i30jetlkkqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUYgAcC9w7_D2yvdKXekwPNWCuYG48B4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:886156228104:android:71197abcea30b3e3",
+        "android_client_info": {
+          "package_name": "com.rentaza.flutterrentaza.dev.qa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "886156228104-4m5mb9t3373n0o2jivr13i30jetlkkqb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUYgAcC9w7_D2yvdKXekwPNWCuYG48B4o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

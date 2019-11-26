@@ -1,0 +1,33 @@
+@startuml
+    'Keep Mermaid format
+    Title: Kiểm hàng & khong nghiệm thu (yeu cau tra lai hang)
+
+    actor Buyer
+    participant Baibai
+    participant Shipper #LightGreen
+    actor Seller
+    
+    Buyer -> Buyer: Đánh giá hàng nhận
+    Buyer -> Baibai: Comment & gửi request trả lại hàng
+    Baibai -> Baibai: Xác nhận yêu cầu trả hàng
+    
+    alt is Rejected
+        Baibai --x Buyer: Gửi trả kết quả Rejected việc trả hàng, kết thúc luồng
+    else is Accepted
+        Baibai -> Buyer: Gửi trả kết quả Accepted việc trả hàng
+    end
+
+    Buyer -> Baibai: Request shipper giao hàng
+    Baibai -> Shipper: Gửi request chuyển hàng
+    Note right of Shipper: Shipper đã chuyểnhàng đến
+    Shipper -> Seller: Giao hàng
+    Note right of Seller: Update trạng tháigiao hàng
+    
+    Seller ->> Seller: Confirm kết quả nhận lại hàng
+    Seller --> Baibai: Update trạng thái nhận hàng
+    Baibai -> Baibai: Trả lại tiền vào tài khoản ảo của Buyer
+    Baibai --> Buyer: Gửi thông báo sau khi chuyển khoản
+    Baibai -> Baibai: Tính toán chi phí phạt Seller
+    Baibai -> Baibai: Rút tiền từ tài khoản ảo của Seller.
+    Baibai --> Seller: Gửi thông báo cho Seller
+@enduml

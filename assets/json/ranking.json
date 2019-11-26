@@ -1,0 +1,48 @@
+{
+  "all": [{
+      "id": 1,
+      "name": "Toyota",
+      "description": "Description",
+      "image": "https://cf.shopee.vn/file/4f55b59de133a688b4fc56365624162e_tn",
+      "ranking": "assets/images/ranking/1st.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Levis",
+      "description": "Description",
+      "image": "https://cf.shopee.vn/file/69df5cba25baa6ce473eae75ffbcaca4_tn",
+      "ranking": "assets/images/ranking/2nd.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nokia",
+      "description": "Description",
+      "image": "https://cf.shopee.vn/file/623ffef0349e297204617056e47763f5",
+      "ranking": "assets/images/ranking/3rd.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Kiyosak",
+      "description": "Description",
+      "image": "https://cf.shopee.vn/file/5bcd1d8a1a96b1df76c1261d8e6e8af6_tn",
+      "ranking": "assets/images/ranking/four.png"
+    },
+    {
+      "id": 5,
+      "name": "Produkt",
+      "description": "Description",
+      "image": "https://cf.shopee.vn/file/c75c33653c8ff911d2966d0602c80f7c_tn",
+      "ranking": "assets/images/ranking/five.png"
+    },
+    {
+      "id": 6,
+      "name": "Richee",
+      "description": "Description",
+      "image": "https://cf.shopee.vn/file/4f55b59de133a688b4fc56365624162e_tn",
+      "ranking": "assets/images/ranking/six.png"
+    }
+  ],
+  "featured": [
+
+  ]
+}

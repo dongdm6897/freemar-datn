@@ -1,0 +1,21 @@
+@startuml
+    'Keep Mermaid format
+    Title: Thanh toán online
+
+    actor Buyer
+    participant Baibai
+    participant VNPay #LightGreen
+    actor Seller
+
+    Buyer -> Buyer: Chọn thanh toán online qua VNPay
+    Buyer -> Buyer: Nhập thông tin thanh toán
+    Buyer -> Baibai: Gửi thông tin thanh toán
+    Baibai --> VNPay: Yêu cầu thanh toán
+    VNPay -> VNPay: Thực hiện thanh toán
+    VNPay --> Baibai: Gửi kết quả thanh toán
+    Baibai -> Baibai: Lưu kết quả thanh toán vào DB
+    Baibai --> Buyer: Gửi kết quả thanh toán
+    Baibai --> Seller: Thông báo thanh toán đã hoàn tất cho Seller
+    Note right of Seller: Thực chất tiền vẫndo Baibai lưu giữ,để đảm bảo an toàn
+    Buyer -> Buyer: Thanh toán hoàn tất
+@enduml

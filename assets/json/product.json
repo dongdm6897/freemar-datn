@@ -1,0 +1,2297 @@
+{
+  "all": [
+    {
+      "id": 1,
+      "name": "Sad sad1111",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "avatar": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+        "introduction": "Good",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 10000000.00,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_at": {
+        "date": "2019-06-10 20:53:58.000000",
+        "timezone_type": 3,
+        "timezone": "Asia/Ho_Chi_Minh"
+      },
+      "updated_at": {
+        "date": "2019-06-10 20:53:58.000000",
+        "timezone_type": 3,
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 2
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 4,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 1
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 5,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 4.99,
+      "original_price": 4.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 6,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 5,
+        "name": "Produkt"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 7,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 8,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 4.99,
+      "original_price": 4.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 9,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 5,
+        "name": "Produkt"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 4.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "featured": [
+    {
+      "id": 1,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 4,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 5,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 4.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 6,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 5,
+        "name": "Produkt"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 7,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Print T-shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 8,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 4.99,
+      "original_price": 4.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 9,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 5,
+        "name": "Produkt"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 4.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "new": [
+    {
+      "id": 1,
+      "name": "Sad sad111",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "is_sold_out": true,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 4,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Print T-shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 5,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 4.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 6,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 5,
+        "name": "Produkt"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 7,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Print T-shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "recently": [
+    {
+      "id": 1,
+      "name": "Android studio 3.3.1 Xcode php storm",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Print T-shirt",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 10000000000.0,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "is_sold_out": true,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 4,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Print T-shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 5,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 4.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 6,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 5,
+        "name": "Produkt"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "is_sold_out": true,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 7,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 4.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 8,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 5,
+        "name": "Produkt"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "product_search_template": [
+    {
+      "name": "UUU",
+      "keyword": "UUUU"
+    },
+    {
+      "name": "AAA",
+      "keyword": "AAAA"
+    },
+    {
+      "name": "EEE",
+      "keyword": "EEEE"
+    }
+  ],
+  "owner": [
+    {
+      "id": 1,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Print T-shirt",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "brand": [
+    {
+      "id": 1,
+      "name": "Sad sad",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Print T-shirt",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Fre Fire HT",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "related_products": [
+    {
+      "id": 1,
+      "name": "Sad sad related 1",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Print T-shirt",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1 related 2",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 3,
+      "name": "Fre Fire HT related 3",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 4,
+      "name": "Fre Fire HT related 4",
+      "image": "https://cf.shopee.vn/file/46b79b1ed11ec126f03c2e404a1ff0c5",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Men's Shirt",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "watched_products": [
+    {
+      "id": 1,
+      "name": "Sad sad watched 1",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Print T-shirt",
+      "owner": {
+        "id": 2,
+        "name": "Mr ABC",
+        "avatar": "http://i.pravatar.cc/100",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1 watched 2",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "avatar": "http://i.pravatar.cc/100",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "favorite_products": [
+    {
+      "id": 1,
+      "name": "Sad sad favorite 1",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Print T-shirt",
+      "owner": {
+        "id": 2,
+        "name": "Mr ABC",
+        "avatar": "http://i.pravatar.cc/100",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_at": {
+        "date": "2019-06-10 20:53:58.000000",
+        "timezone_type": 3,
+        "timezone": "Asia/Ho_Chi_Minh"
+      },
+      "updated_at": {
+        "date": "2019-06-10 20:53:58.000000",
+        "timezone_type": 3,
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1 favorite 2",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "avatar": "http://i.pravatar.cc/100",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_at": {
+        "date": "2019-06-10 20:53:58.000000",
+        "timezone_type": 3,
+        "timezone": "Asia/Ho_Chi_Minh"
+      },
+      "updated_at": {
+        "date": "2019-06-10 20:53:58.000000",
+        "timezone_type": 3,
+        "timezone": "Asia/Ho_Chi_Minh"
+      }
+    }
+  ],
+  "commented_products": [
+    {
+      "id": 1,
+      "name": "Sad sad commented 1",
+      "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+      "description": "Print T-shirt",
+      "owner": {
+        "id": 2,
+        "name": "Mr ABC",
+        "avatar": "http://i.pravatar.cc/100",
+        "status": 4
+      },
+      "brand": {
+        "id": 2,
+        "name": "Levis"
+      },
+      "category": {
+        "id": 111,
+        "name": "Cool Fan"
+      },
+      "tags": "tag1, tag2, tag3",
+      "price": 19.99,
+      "original_price": 19.99,
+      "rating": 4.0,
+      "quantity": 0,
+      "total_reviews": 170,
+      "created_date": "",
+      "updated_date": ""
+    },
+    {
+      "id": 2,
+      "name": "Nokia 3.1 commented 2",
+      "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+      "owner": {
+        "id": 1,
+        "name": "Mr Bean",
+        "avatar": "http://i.pravatar.cc/100",
+        "status": 4
+      },
+      "brand": {
+        "id": 3,
+        "name": "Nokia"
+      },
+      "category": {
+        "id": 121,
+        "name": "Cool Fridge"
+      },
+      "tags": "tag1, tag2, tag3",
+      "description": "Nokia 3.1 Performance",
+      "price": 4.99,
+      "original_price": 19.99,
+      "rating": 5.0,
+      "quantity": 2,
+      "total_reviews": 1710,
+      "created_date": "",
+      "updated_date": ""
+    }
+  ],
+  "draft_products": {
+    "data": [
+      {
+        "id": 100,
+        "name": "Sad sad draft 100",
+        "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+        "description": "Print T-shirt",
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 111,
+          "name": "Cool Fan"
+        },
+        "tags": "tag1, tag2, tag3",
+        "price": 19.99,
+        "original_price": 19.99,
+        "rating": 4.0,
+        "quantity": 0,
+        "total_reviews": 170,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 200,
+        "name": "Nokia 3.1 draft 200",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "brand": {
+          "id": 3,
+          "name": "Nokia"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 300,
+        "name": "Nokia 3.1 draft 300",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "brand": {
+          "id": 3,
+          "name": "Nokia"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      }
+    ]
+  },
+  "selling_products": {
+    "data": [
+      {
+        "id": 51,
+        "name": "Sad sad selling 51",
+        "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+        "description": "Print T-shirt",
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 111,
+          "name": "Cool Fan"
+        },
+        "tags": "tag1, tag2, tag3",
+        "price": 19.99,
+        "original_price": 19.99,
+        "rating": 4.0,
+        "quantity": 0,
+        "total_reviews": 170,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 52,
+        "name": "Nokia 3.1 selling 52",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "brand": {
+          "id": 3,
+          "name": "Nokia"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 53,
+        "name": "Nokia 3.1 selling 53",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "brand": {
+          "id": 3,
+          "name": "Nokia"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      }
+    ]
+  },
+  "ordering_products": {
+    "data": [
+      {
+        "id": 11,
+        "name": "Sad sad ordering 11",
+        "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+        "description": "Print T-shirt",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 111,
+          "name": "Cool Fan"
+        },
+        "in_order": {
+          "id": 11,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 6,
+            "comment": "Shipping"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "price": 19.99,
+        "original_price": 19.99,
+        "rating": 4.0,
+        "quantity": 0,
+        "total_reviews": 170,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 12,
+        "name": "Nokia 3.1 ordering 12",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 12,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 8,
+            "comment": "Product checking"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 13,
+        "name": "Nokia 3.1 3 con baba ordering 13",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 13,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 9,
+            "comment": "Product checked"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 14,
+        "name": "Nokia 3.1 4 ordering 14",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 14,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 5,
+            "comment": "Ship requesting"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 15,
+        "name": "Nokia 3.1 ordering 15",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 3,
+          "name": "Nokia"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 15,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 3,
+            "comment": "Ordered"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 16,
+        "name": "Nokia 3.1 ordering 16",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 3,
+          "name": "Nokia"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 15,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 2,
+            "comment": "Ordering"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      }
+    ]
+  },
+  "sold_products": {
+    "data": [
+      {
+        "id": 21,
+        "name": "Sad sad 11 sold 21",
+        "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+        "description": "Print T-shirt",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 111,
+          "name": "Cool Fan"
+        },
+        "in_order": {
+          "id": 21,
+          "buyer": {
+            "id": 3,
+            "name": "Mr XYZ",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 13,
+            "comment": "Transaction cancelled"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "price": 19.99,
+        "original_price": 19.99,
+        "rating": 4.0,
+        "quantity": 0,
+        "total_reviews": 170,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 22,
+        "name": "Nokia 3.1 12 sold 22",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 22,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 12,
+            "comment": "Transaction finished"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 23,
+        "name": "Nokia 3.1 3 sold 23",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 1,
+          "name": "Mr Bean",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 23,
+          "buyer": {
+            "id": 2,
+            "name": "Mr ABC",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 12,
+            "comment": "Transaction finished"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      }
+    ]
+  },
+  "buying_products": {
+    "data": [
+      {
+        "id": 31,
+        "name": "Sad sad 11 buying 31",
+        "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+        "description": "Print T-shirt",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 111,
+          "name": "Cool Fan"
+        },
+        "in_order": {
+          "id": 31,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 6,
+            "comment": "Shipping"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "price": 19.99,
+        "original_price": 19.99,
+        "rating": 4.0,
+        "quantity": 0,
+        "total_reviews": 170,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 32,
+        "name": "Nokia 3.1 12 buying 32",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 32,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 8,
+            "comment": "Product checking"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 33,
+        "name": "Nokia 3.1 3 buying 33",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 33,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 9,
+            "comment": "Product checked"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 34,
+        "name": "Nokia 3.1 3 buying 34",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 34,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 5,
+            "comment": "Ship requesting"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 35,
+        "name": "Nokia 3.1 3 buying 35",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 35,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 3,
+            "comment": "Ordered"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 36,
+        "name": "Nokia 3.1 3 buying 36",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 36,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 2,
+            "comment": "Ordering"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      }
+    ]
+  },
+  "bought_products": {
+    "data": [
+      {
+        "id": 41,
+        "name": "Sad sad 11 bought 41",
+        "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+        "description": "Print T-shirt",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 111,
+          "name": "Cool Fan"
+        },
+        "in_order": {
+          "id": 41,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 12,
+            "comment": "Transaction finished"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "price": 19.99,
+        "original_price": 19.99,
+        "rating": 4.0,
+        "quantity": 0,
+        "total_reviews": 170,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 42,
+        "name": "Nokia 3.1 12 bought 42",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 42,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 12,
+            "comment": "Transaction finished"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      },
+      {
+        "id": 43,
+        "name": "Nokia 3.1 3 bought",
+        "image": "https://cf.shopee.vn/file/9d88b9b7768ee1f31854552fb0aab07e",
+        "owner": {
+          "id": 2,
+          "name": "Mr Bean 2",
+          "avatar": "http://i.pravatar.cc/100",
+          "status": 4
+        },
+        "brand": {
+          "id": 2,
+          "name": "Levis"
+        },
+        "category": {
+          "id": 121,
+          "name": "Cool Fridge"
+        },
+        "in_order": {
+          "id": 43,
+          "buyer": {
+            "id": 1,
+            "name": "Mr Bean",
+            "avatar": "http://i.pravatar.cc/100"
+          },
+          "status": {
+            "id": 13,
+            "comment": "Transaction cancelled"
+          }
+        },
+        "tags": "tag1, tag2, tag3",
+        "description": "Nokia 3.1 Performance",
+        "price": 4.99,
+        "original_price": 19.99,
+        "rating": 5.0,
+        "quantity": 2,
+        "total_reviews": 1710,
+        "created_date": "",
+        "updated_date": ""
+      }
+    ]
+  },
+  "updated": {
+    "id": 1,
+    "name": "Sad sad1111",
+    "image": "https://cf.shopee.vn/file/a6fff1b07a089915e1278947cf9392b0",
+    "description": "Hello, fearless Flutter fans! Today we’re going to delve into a highly specialized topic — something most app developers can blissfully ignore and create great looking apps without needing to know or understand. Usually if you need to scroll through something, ListView and GridView will do the job. ",
+    "owner": {
+      "id": 1,
+      "name": "Mr Bean",
+      "status": 4
+    },
+    "brand": {
+      "id": 2,
+      "name": "Levis"
+    },
+    "category": {
+      "id": 111,
+      "name": "Cool Fan"
+    },
+    "tags": "tag1, tag2, tag3",
+    "price": 10000000.00,
+    "original_price": 19.99,
+    "rating": 4.0,
+    "quantity": 0,
+    "total_reviews": 170,
+    "created_date": "",
+    "updated_date": ""
+  }
+}

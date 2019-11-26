@@ -1,0 +1,33 @@
+@startuml
+    title: Flow xử lí đặt hàng
+
+    actor Buyer
+    participant Baibai
+    actor Seller
+    
+    activate Baibai
+    Buyer -> Baibai: Tìm, tạo & gửi đơn đặt hàng
+    Baibai -> Baibai: Tiếp nhận đơn hàng        
+
+    alt not need confirm seller
+        Buyer -> Buyer: Thực hiện thanh toán
+        activate Buyer
+        deactivate Buyer
+    else need confirm seller
+        Baibai --> Seller: Gửi notification báo có đơn đặt hàng
+
+        activate Seller
+        Seller -> Seller: Xác nhận & phản hồi (accept / reject)
+        Note right of Seller: Check độ tin cậy(ex: point)...
+        Seller --> Baibai: Gửi phản hồi (accept / reject)
+        deactivate Seller
+        
+        Baibai --> Buyer: Thông báo kết quả phản hồi từ Seller    
+        activate Buyer        
+        Buyer -> Buyer: Thực hiện thanh toán (trường hợp accepted)
+        activate Buyer
+        deactivate Buyer
+        deactivate Buyer
+    end
+    deactivate Baibai
+@enduml

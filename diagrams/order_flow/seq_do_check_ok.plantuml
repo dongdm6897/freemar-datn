@@ -1,0 +1,19 @@
+@startuml
+    'Keep Mermaid format
+    Title: Kiểm hàng & nghiệm thu (chấp nhận mua hàng)
+
+    actor Buyer
+    participant Baibai
+    actor Seller
+
+    Buyer -> Buyer: Đánh giá hàng nhận
+    Buyer -> Baibai: Comment & gửi lên hệ thống
+    Baibai -> Baibai: Update đánh giá vào DB (order + seller assigment)
+    Baibai -> Baibai: Chuyển khoản vào tài khoản của Seller
+    Note right of Baibai: Tài khoản ảo
+    
+    Baibai --> Seller: Thông báo cho Seller v/v nghiệm thu hoàn tất
+    Seller -> Seller: Confirm kết quả giao dịch
+    Seller -> Baibai: Gửi đánh giá về Buyer
+    Note right of Baibai: Đánh giá về thái độđộ đáp ứng, ...
+@enduml

@@ -1,0 +1,97 @@
+{
+  "all": [
+    {
+      "id": 1,
+      "name": "Electric 1",
+      "icon": "devices_other"
+    },
+    {
+      "id": 2,
+      "name": "Farm 2",
+      "icon": "crop_original"
+    },
+    {
+      "id": 3,
+      "name": "Computer 3",
+      "icon": "desktop_windows"
+    },
+    {
+      "id": 4,
+      "name": "Home 4",
+      "icon": "home"
+    },
+    {
+      "id": 5,
+      "name": "Fan 5",
+      "icon": "hdr_weak",
+      "parent": {
+        "id": 1,
+        "name": "Electric 1"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Fridge 12",
+      "icon": "desktop_windows",
+      "parent": {
+        "id": 1,
+        "name": "Electric 1"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Fan 31",
+      "icon": "desktop_windows",
+      "parent": {
+        "id": 3,
+        "name": "Computer 3"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Fridge 32",
+      "icon": "desktop_windows",
+      "parent": {
+        "id": 3,
+        "name": "Computer 3"
+      }
+    },
+    {
+      "id": 111,
+      "name": "Quan ao ABC",
+      "icon": "desktop_windows",
+      "required_attribute_types": "COLOR,SIZE",
+      "parent": {
+        "id": 12,
+        "name": "Fridge 12"
+      }
+    },
+    {
+      "id": 121,
+      "name": "Cool Fridge 121",
+      "icon": "desktop_windows",
+      "parent": {
+        "id": 31,
+        "name": "Fan 31"
+      }
+    },
+    {
+      "id": 1111,
+      "name": "Cool Fan 1111",
+      "icon": "desktop_windows",
+      "parent": {
+        "id": 111,
+        "name": "Cool Fan 111"
+      }
+    },
+    {
+      "id": 1112,
+      "name": "Cool Fan 1112",
+      "icon": "desktop_windows",
+      "parent": {
+        "id": 121,
+        "name": "Cool Fridge 121"
+      }
+    }
+  ]
+}

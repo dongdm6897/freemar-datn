@@ -1,0 +1,42 @@
+{
+  "all": [{
+      "id": 1,
+      "name": "Toyota",
+      "description": "Description",
+      "image": "assets/images/ranking/beauty.png"
+    },
+    {
+      "id": 2,
+      "name": "Levis",
+      "description": "Description",
+      "image": "assets/images/ranking/chocolate.png"
+    },
+    {
+      "id": 3,
+      "name": "Nokia",
+      "description": "Description",
+      "image": "assets/images/ranking/clock.png"
+    },
+    {
+      "id": 4,
+      "name": "Kiyosak",
+      "description": "Description",
+      "image": "assets/images/ranking/clother.png"
+    },
+    {
+      "id": 5,
+      "name": "Produkt",
+      "description": "Description",
+      "image": "assets/images/ranking/laptop.png"
+    },
+    {
+      "id": 6,
+      "name": "Richee",
+      "description": "Description",
+      "image": "assets/images/ranking/soccer.png"
+    }
+  ],
+  "featured": [
+
+  ]
+}

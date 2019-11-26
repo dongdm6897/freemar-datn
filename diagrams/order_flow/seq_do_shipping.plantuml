@@ -1,0 +1,29 @@
+@startuml
+    Title: Ship hàng
+
+    actor Buyer
+    participant Baibai
+    participant Shipper #LightGreen
+    actor Seller
+
+    activate Seller
+    Seller -> Seller: Chọn Request shipper trong màn hình quản lí đơn hàng
+    Seller --> Baibai: Gui Request
+    deactivate Seller
+
+    activate Baibai
+    Baibai -> Baibai: Tạo shipper request dựa vào order
+    Baibai -> Shipper: Gửi request ship
+    deactivate Baibai
+
+    activate Shipper
+    Shipper -> Shipper: Xác nhận, giao hàng, update thông tin hành trình
+    Note right of Shipper: Tích hợp API đểnhận thông  tin giaohàng thời gian thực
+
+    Shipper -> Baibai: Thông báo hoàn tất giao dịch ship hàng
+    deactivate Shipper
+    activate Baibai
+    Baibai --> Seller: Thông báo hoàn tất giao dịch ship hàng
+    Baibai --> Buyer: Thông báo hoàn tất giao dịch ship hàng
+    deactivate Baibai    
+@enduml

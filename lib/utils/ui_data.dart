@@ -1,5 +1,5 @@
 class UIData {
-  static const String APP_NAME = "BaiBai";
+  static const String APP_NAME = "Freemar";
 
   //  routes
   static const String HOMEPAGE = "/homepage";

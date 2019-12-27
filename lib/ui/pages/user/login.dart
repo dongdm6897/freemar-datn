@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_facebook_login/flutter_facebook_login.dart';
+//import 'package:flutter_facebook_login/flutter_facebook_login.dart';
 import 'package:flutter_rentaza/blocs/app_bloc.dart';
 import 'package:flutter_rentaza/blocs/login_bloc.dart';
 import 'package:flutter_rentaza/generated/i18n.dart';
@@ -27,7 +27,7 @@ class LoginPageState extends State<LoginPage> {
 
   LoginBloc loginBloc = LoginBloc();
   GoogleSignIn _googleSignIn = GoogleSignIn();
-  FacebookLogin facebookLogin = FacebookLogin();
+//  FacebookLogin facebookLogin = FacebookLogin();
   final _formKey = GlobalKey<FormState>();
   String _username;
   String _password;
@@ -38,48 +38,48 @@ class LoginPageState extends State<LoginPage> {
     super.initState();
   }
 
-  onLoginFacebookStatusChanged(bool isLoggedIn, {profileData}) async {
-    if (isLoggedIn) {
-      setState(() {
-        _saving = true;
-      });
-      String id = profileData["id"];
-      String type = 'facebook';
-
-      Map params = Map();
-      params['data'] = {
-        "name": profileData['name'],
-        "email": profileData['email'],
-        "photoUrl": profileData['picture']['data']['url']
-      };
-      params['id'] = id;
-      params['type'] = type;
-
-      String token = await FirebaseMessaging().getToken();
-      params['fcm_token'] = token;
-
-      var response = await loginBloc.loginSocial(params);
-      if (response != null && response['user'] is User) {
-        User user = response['user'];
-        var accessToken = response['access_token'];
-        var expiresAt = response['expires_at'];
-        var res = await loginBloc.saveSharePref(true, user.id, accessToken);
-        if (res) {
-          user.name = user.snsData['name'];
-          user.avatar = user.snsData['photoUrl'];
-          user.accessToken = accessToken;
-          AppBloc().setLoginUser(user);
-          Navigator.pushNamed(context, UIData.HOMEPAGE);
-        } else
-          loginFail("Error ! Please try again");
-      } else {
-        setState(() {
-          _saving = false;
-        });
-        loginFail(response['message'] ?? "Error ! Please try again");
-      }
-    }
-  }
+//  onLoginFacebookStatusChanged(bool isLoggedIn, {profileData}) async {
+//    if (isLoggedIn) {
+//      setState(() {
+//        _saving = true;
+//      });
+//      String id = profileData["id"];
+//      String type = 'facebook';
+//
+//      Map params = Map();
+//      params['data'] = {
+//        "name": profileData['name'],
+//        "email": profileData['email'],
+//        "photoUrl": profileData['picture']['data']['url']
+//      };
+//      params['id'] = id;
+//      params['type'] = type;
+//
+//      String token = await FirebaseMessaging().getToken();
+//      params['fcm_token'] = token;
+//
+//      var response = await loginBloc.loginSocial(params);
+//      if (response != null && response['user'] is User) {
+//        User user = response['user'];
+//        var accessToken = response['access_token'];
+//        var expiresAt = response['expires_at'];
+//        var res = await loginBloc.saveSharePref(true, user.id, accessToken);
+//        if (res) {
+//          user.name = user.snsData['name'];
+//          user.avatar = user.snsData['photoUrl'];
+//          user.accessToken = accessToken;
+//          AppBloc().setLoginUser(user);
+//          Navigator.pushNamed(context, UIData.HOMEPAGE);
+//        } else
+//          loginFail("Error ! Please try again");
+//      } else {
+//        setState(() {
+//          _saving = false;
+//        });
+//        loginFail(response['message'] ?? "Error ! Please try again");
+//      }
+//    }
+//  }
 
   onLoginGoogleStatusChanged(
       bool isLoggedIn, GoogleSignInAccount account) async {
@@ -195,7 +195,7 @@ class LoginPageState extends State<LoginPage> {
               height: 150.0,
               padding: EdgeInsets.all(20.0),
               alignment: Alignment.center,
-              child: Image.asset('assets/images/logo.png',
+              child: Image.asset('assets/images/freemar_logo.png',
                   height: 150.0, width: double.infinity, fit: BoxFit.cover)),
           Container(
               alignment: Alignment.center,
@@ -331,7 +331,7 @@ class LoginPageState extends State<LoginPage> {
                     flex: 4,
                     fit: FlexFit.tight,
                     child: FacebookSignInButton(onPressed: () {
-                      initiateFacebookLogin();
+//                      initiateFacebookLogin();
                     }),
                   ),
                   Spacer(
@@ -351,31 +351,31 @@ class LoginPageState extends State<LoginPage> {
     );
   }
 
-  void initiateFacebookLogin() async {
-    var facebookLoginResult =
-        await facebookLogin.logInWithReadPermissions(['email']);
-    switch (facebookLoginResult.status) {
-      case FacebookLoginStatus.error:
-        print("Error");
-        onLoginFacebookStatusChanged(false);
-        break;
-      case FacebookLoginStatus.cancelledByUser:
-        print("CancelledByUser");
-        onLoginFacebookStatusChanged(false);
-        break;
-      case FacebookLoginStatus.loggedIn:
-        print("LoggedIn");
-
-        var graphResponse = await http.get(
-            'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email,picture.height(200)&access_token=${facebookLoginResult.accessToken.token}');
-
-        var profile = json.decode(graphResponse.body);
-        print(profile.toString());
-
-        onLoginFacebookStatusChanged(true, profileData: profile);
-        break;
-    }
-  }
+//  void initiateFacebookLogin() async {
+//    var facebookLoginResult =
+//        await facebookLogin.logInWithReadPermissions(['email']);
+//    switch (facebookLoginResult.status) {
+//      case FacebookLoginStatus.error:
+//        print("Error");
+//        onLoginFacebookStatusChanged(false);
+//        break;
+//      case FacebookLoginStatus.cancelledByUser:
+//        print("CancelledByUser");
+//        onLoginFacebookStatusChanged(false);
+//        break;
+//      case FacebookLoginStatus.loggedIn:
+//        print("LoggedIn");
+//
+//        var graphResponse = await http.get(
+//            'https://graph.facebook.com/v2.12/me?fields=name,first_name,last_name,email,picture.height(200)&access_token=${facebookLoginResult.accessToken.token}');
+//
+//        var profile = json.decode(graphResponse.body);
+//        print(profile.toString());
+//
+//        onLoginFacebookStatusChanged(true, profileData: profile);
+//        break;
+//    }
+//  }
 
   _handleGoogleSignIn() async {
     _googleSignIn.onCurrentUserChanged.listen((GoogleSignInAccount account) {
